@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.manga {
+    h2{
+        margin-bottom: 3rem;
+        
+    }
+
+    &__container {
+        display: flex;
+    }
+
+    &__img {
+     padding: 1rem;
+     width: 100%;
+    }
+
+    &__content {
+        color: variaveis.$corDeTxt;
+        padding: 3rem;
+    }
+}

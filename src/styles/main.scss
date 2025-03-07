@@ -1,0 +1,27 @@
+@use 'hero';
+@use 'variaveis';
+@use 'characters';
+@use 'watch';
+@use 'mangas';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+
+    h2 {
+        color: variaveis.$corDeTxt;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: variaveis.$corDeTxt;
+    }
+}

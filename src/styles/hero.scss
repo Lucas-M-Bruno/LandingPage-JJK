@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &__text {
+        padding: 1rem;
+        color:variaveis.$corDeTxt;
+
+        h1 {
+            color: variaveis.$corTitulo;
+            font-size: 5rem;
+        }
+    }
+
+    img {
+        max-width: 1024px;
+        width: 100%;
+    }
+}
